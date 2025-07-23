@@ -44,3 +44,22 @@ print(2*4)
 print(int(16/2))
 favorite_num = 666
 print(f"私の好きな数字は{favorite_num}です。")
+
+
+#リスト内包表記
+squares = [value ** 2 for value in range(1, 11)]
+print(squares)
+
+#リストのコピーにはスライスを用いる
+lists = [1,2,3,4]
+cp_list = lists[:]
+
+#in
+requested_toppings = ["チーズ", "きのこ", "はらみ"]
+print("チーズ" in requested_toppings)
+print("ss" in requested_toppings)
+
+#リストがからの場合は False を返す
+lis = []
+if lis: print("中身が入っています")
+else: print("中身が入っていません")
