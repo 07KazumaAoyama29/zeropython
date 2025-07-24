@@ -63,3 +63,9 @@ print("ss" in requested_toppings)
 lis = []
 if lis: print("中身が入っています")
 else: print("中身が入っていません")
+
+#辞書の要素の削除
+ts = {"a": 10}
+print(ts)
+del ts["a"]
+print(ts)
