@@ -69,3 +69,13 @@ ts = {"a": 10}
 print(ts)
 del ts["a"]
 print(ts)
+
+#任意数の引数を受け取る関数の書き方
+def func(*arg):#*はタプルにまとめて格納する
+    print(arg)
+func("a")
+func("a", "b", "c")
+
+def funca(**kwargs):#**は辞書にまとめて格納する
+    return kwargs
+print(funca(name = "hiroto", j ="a"))
