@@ -1,2 +1,1 @@
-pytest
-pygame
+pytest == 8.4.1
